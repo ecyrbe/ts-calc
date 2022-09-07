@@ -14,3 +14,6 @@ type TestDiv = Div<1234567890976509876543456n, 234567876542n>;
 
 type TestMod = Mod<1234567890976509876543456n, 234567876542n>;
 //     ^?
+
+type TestEuclidianEquality = Add<Mul<TestDiv, 234567876542n>, TestMod>;
+//     ^?
