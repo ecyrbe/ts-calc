@@ -13,6 +13,7 @@ This code base implement number and bigint for the following type functions:
 - multiplication
 - division
 - modulo
+- power
 - factorial
 - range
 

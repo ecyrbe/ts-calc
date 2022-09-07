@@ -5,5 +5,6 @@ export * from "./division";
 export * from "./factorial";
 export * from "./multiply";
 export * from "./negate";
+export * from "./power";
 export * from "./range";
 export * from "./substraction";
