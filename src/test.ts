@@ -1,6 +1,6 @@
-import { Add, Sub, Mul, Div, Mod, Power } from "./index";
+import { Add, Sub, Mul, Div, Mod, Power, Factorial } from "./index";
 
-type TestAdd = Add<12345678909765345678n, 234567876542n>;
+type TestAdd = Add<1234567890976509876543456n, 234567876542n>;
 //     ^?
 
 type TestSub = Sub<1234567890976509876543456n, 234567876542n>;
@@ -18,5 +18,8 @@ type TestMod = Mod<1234567890976509876543456n, 234567876542n>;
 type TestEuclidianEquality = Add<Mul<TestDiv, 234567876542n>, TestMod>;
 //     ^?
 
-type TestPower = Power<-12, 71>;
+type TestPower = Power<-17, 42>;
+//     ^?
+
+type TestFactorial = Factorial<42>;
 //     ^?
