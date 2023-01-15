@@ -19,5 +19,6 @@ This code base implement number and bigint for the following type functions:
 - power
 - factorial
 - range
+- fizzbuzz
 
 enjoy!
